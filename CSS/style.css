@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: rgb(27, 21, 40);
+    font-family: Roboto Condensed,'Courier New', Courier, monospace;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+a {
+    color: rgb(27, 21, 40);
+    margin-right: 5px;
+}
+.p1 {
+    text-align: center;
+    margin-right: 0px;
+    background-color: white;
+    background-size: auto;
+}
+
+.p2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p3 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+img {
+    margin-left: auto; display: block; margin-right: auto ; margin-top: 30px;
+}
+
+.container {
+    color: white;
+}
+
+li {
+    text-align: left;
+}
+
+.a1 {
+    color: white;
+}
+
+.rounded-image {
+    border-radius: 5%;
+    width: 450px;
+}
