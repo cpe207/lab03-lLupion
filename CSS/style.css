@@ -19,7 +19,6 @@ a {
 }
 
 .p2 {
-    color: white;
     text-align: center;
     margin-top: 20px;
 }
@@ -31,7 +30,6 @@ a {
 h2 {
     color: white;
     text-align: center;
-    border: 3px solid;
     border-radius: 10px;
 }
 
@@ -55,3 +53,25 @@ li {
     border-radius: 5%;
     width: 450px;
 }
+
+.card {
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-img-top {
+    border-radius: 1%;
+  }
+  
+  

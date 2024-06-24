@@ -5,43 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>My Portfolio</h1>
-    <p class="p1">
-      <a href="index.html">Home page</a>
-      |
-      <a href="Experience.html">Experience</a>
-      |
-      <a href="Contact.html">Contact</a>
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Wichuda's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Experience.html">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
 
-    <img src="Picture/image.png" alt="error" class="rounded-image">
+    <div class=" p-3 rounded-4 mx-auto" style="max-width: 40rem">
+      <div class="d-flex gap-3 align-items-center">
+        <img src="./Picture/image.png" 
+          alt="error" 
+          width="150px" 
+          height="150px" 
+          class="border rounded-circle " 
+        />
+        <div>
+          <div class="fw-bold display-6">
+            Wichuda Rotna
+          </div>
+          <div class="text-muted">
+            My name is "Wichuda Rodna", you can call me "Pang". <br>
+            I am currently a student in the Department of Computer Engineering at the Faculty of Engineering, Chiang Mai University.
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <p class="p2">
-      My name is "Wichuda Rodna", you can call me "Pang". <br>
-      I am currently a student in the Department of Computer Engineering at the Faculty of Engineering, Chiang Mai University.
-    </p>
-
+    <h1>Technical Skills</h1>
 
     <div class="container">
-      <h1>Technical Skills</h1>
-      <h2>Programming Languages:</h2>
-      <ul>
-          <li>Familiar with Python, C++ and C#</li>
-      </ul>
-      <h2>Software and Tools:</h2>
-      <ul>
-          <li>Experience with Unity and Visual Studio Code</li>
-          <li>Familiar with GitHub</li>
-      </ul>
-      <h2>Soft Skills:</h2>
-      <ul>
-          <li>Self-learning</li>
-          <li>Leadership</li>
-          <li>Teamwork</li>
-      </ul>
-  </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://www.zdnet.com/a/img/resize/e0a9cadd3b0038b854680cff5a197bdf96580443/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&width=1280" class="card-img-top" alt="Programming Languages">
+            <div class="card-body">
+              <h5 class="card-title">Programming Languages</h5>
+              <ul class="list-unstyled">
+                <li>Familiar with Python, C++ and C#</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://img.freepik.com/free-vector/flat-design-cms-illustration_23-2148822448.jpg" class="card-img-top" alt="Software and Tools">
+            <div class="card-body">
+              <h5 class="card-title">Software and Tools</h5>
+              <ul class="list-unstyled">
+                <li>Experience with Unity and Visual Studio Code</li>
+                <li>Familiar with GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="https://epays.com.br/wp-content/uploads/2022/06/Soft-skills-e-hard-skills-Qual-a-diferenca.png" class="card-img-top" alt="Soft Skills">
+            <div class="card-body">
+              <h5 class="card-title">Soft Skills</h5>
+              <ul class="list-unstyled">
+                <li>Self-learning</li>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
 
   </body>
 </html>
