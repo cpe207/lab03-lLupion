@@ -7,4 +7,4 @@
 
 <strong>วิชุดา รอดนา 660610794</strong>
 
-<strong>GITHUB PAGE URL : https://cpe207.github.io/lab03-lLupion/index.html</strong>
+<strong>GITHUB PAGE URL : https://cpe207.github.io/lab02-lLupion/index.html</strong>
